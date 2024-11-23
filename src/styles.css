@@ -1,0 +1,176 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #f7f9f9;
+  color: #0f1419;
+}
+
+.twitter-clone-app {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  background-color: #ffffff;
+  border-right: 1px solid #e1e8ed;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.logo {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #1da1f2;
+}
+
+.sidebar-menu ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  margin-bottom: 20px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.tweet-button {
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 50px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.tweet-button:hover {
+  background-color: #1991da;
+}
+
+.feed {
+  width: 60%;
+  border-right: 1px solid #e1e8ed;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.feed-header {
+  border-bottom: 1px solid #e1e8ed;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+}
+
+.tweet-input-box {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.tweet-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #e1e8ed;
+  border-radius: 10px;
+  resize: none;
+}
+
+.tweet-card {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.tweet-content h4 {
+  margin: 0;
+  font-size: 16px;
+}
+
+.tweet-content span {
+  color: gray;
+  font-size: 14px;
+}
+
+.tweet-content p {
+  margin: 5px 0 0;
+}
+
+.right-sidebar {
+  width: 20%;
+  padding: 20px;
+}
+
+.trending-box,
+.who-to-follow {
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 1px solid #e1e8ed;
+  border-radius: 10px;
+}
+
+.trending-box h3,
+.who-to-follow h3 {
+  margin: 0 0 10px;
+}
+
+.trending-box ul,
+.who-to-follow ul {
+  list-style: none;
+  padding: 0;
+}
+
+.who-to-follow ul li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.follow-button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.follow-button:hover {
+  background-color: #1991da;
+}
+
+.nav-icon {
+  margin-right: 10px;
+  font-size: 18px;
+  vertical-align: middle;
+}
+
+.sidebar-menu ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar-menu li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.sidebar-menu li:hover {
+  color: #1da1f2;
+}
